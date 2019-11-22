@@ -89,16 +89,15 @@ int main(){
 
     for(int i = 1; i < n; i++){
         a = getint<int>();
-        b = getint<int>();
-        a--; b--;
-        adj[a].push_back(b);
-        adj[b].push_back(a);
+        a--;
+        adj[a].push_back(i);
+        adj[i].push_back(a);
     }
     dfs(0, -1, 0);
 
     while(q--){
         a = getint<int>(); 
         b = getint<int>();  
-        cout << dist(a - 1, b - 1) << "\n";
+        cout << lca(a - 1, b - 1) + 1 << "\n";
     }
 }

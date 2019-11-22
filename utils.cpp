@@ -1,8 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+#define ll long long
 #pragma GCC optimize ("O3")
 #pragma GCC target ("sse4")
+#define PARR(arr) for(auto a : arr) cout << a << " ";
 
 struct secure_hash {
     static uint64_t splitmix64(uint64_t x) {

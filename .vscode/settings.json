@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableBold": true,
+    "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.rightClickCopyPaste": true,
+}
